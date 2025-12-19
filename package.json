@@ -1,0 +1,27 @@
+{
+  "name": "tabnews-clone",
+  "version": "1.0.0",
+  "description": "Curso.dev Project to practice programming skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerlak/tabnews-clone.git"
+  },
+  "author": "Guerlak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guerlak/tabnews-clone/issues"
+  },
+  "homepage": "https://github.com/guerlak/tabnews-clone#readme",
+  "dependencies": {
+    "next": "^16.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}

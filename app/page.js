@@ -1,7 +1,7 @@
 export default function App() {
     return (
         <h1>
-            Pagina inicial da aplicação...
+            Página em construção...
         </h1>
     )
 }

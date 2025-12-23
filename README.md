@@ -1,3 +1,3 @@
 # tabnews-clone
-Curso.dev Project to practice programming skills
 
+Curso.dev Project to practice programming skills

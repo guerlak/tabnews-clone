@@ -11,7 +11,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/guerlak/tabnews-clone#readme",
   "dependencies": {
     "next": "^16.1.0",
+    "pg": "^8.16.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },

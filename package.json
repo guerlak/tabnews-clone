@@ -13,7 +13,11 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "migration:create": "node-pg-migrate create --migrations-dir ./infra/migrations",
+    "migration:up": "node-pg-migrate up --migrations-dir ./infra/migrations --envPath .env.development",
+    "migration:down": "node-pg-migrate down --migrations-dir ./infra/migrations --envPath .env.development",
+    "migration:reset": "node-pg-migrate reset --migrations-dir ./infra/migrations --envPath .env.development"
   },
   "repository": {
     "type": "git",
@@ -26,7 +30,9 @@
   },
   "homepage": "https://github.com/guerlak/tabnews-clone#readme",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "next": "^16.1.0",
+    "node-pg-migrate": "^6.2.2",
     "pg": "^8.16.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"

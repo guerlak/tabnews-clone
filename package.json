@@ -31,6 +31,7 @@
   "homepage": "https://github.com/guerlak/tabnews-clone#readme",
   "dependencies": {
     "dotenv": "^17.3.1",
+    "dotenv-expand": "^12.0.3",
     "next": "^16.1.0",
     "node-pg-migrate": "^6.2.2",
     "pg": "^8.16.3",

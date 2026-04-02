@@ -24,5 +24,3 @@ async function query(queryObj) {
 export default {
   query,
 };
-
-///j&Fv8Kt7R4.jbi
